@@ -1,0 +1,76 @@
+body{
+    background: whitesmoke;
+}
+.clock-body{
+    background: #EDE9D0;
+    width: 450px;
+    height: 230px;
+    border-radius: 34px;
+    margin: 100px auto;
+    border: 8px solid #006D81;
+    position: relative;
+  }
+
+  .clock-button{
+    background: #E96A53; 
+    height: 30px;
+    width: 350px;
+    position: absolute; 
+    top: -30px;
+    left: 50px;
+    z-index: -2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+  /*  button sliding down animation */
+  .down{
+    transform: translateY(10px);
+  }
+  
+  .time-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 400px;
+    height: 180px;
+    position: relative;
+    left: 20px;
+    top: 19px;
+    border: 6px solid #d3d0ba;
+    
+  }
+  
+  .time-display, .meridies{
+    font-family: 'Rajdhani', Arial;
+    color: #56423E;
+  }
+  .time-display{
+    font-size: 9.2rem;
+  }
+  .meridies{
+    font-size: 2.6rem;
+  }
+
+  /* add blinking animation to divider*/
+  .divider{
+    animation: blink 1s infinite;
+  }
+  @keyframes blink{
+    0% {
+      color: #56423E;
+    }
+    46%{
+      color: #56423E;
+    }
+    50%{
+      color: transparent;
+    }
+    97%{
+      color: transparent;
+    }
+    100%{
+      color: #56423E;
+    }
+  }
