@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Raleway:wght@200;300;400&display=swap');
+
+*{
+  font-family: 'Quicksand', Arial;
+  margin: 0;
+  padding: 0;
+}
+h3, p{
+  font-family: 'Raleway', Arial;
+  transition: all 0.5s ease-in;
+}
+.container{
+  text-align: center;
+  margin: 8% 0;
+}
+.quote-container{
+  width: 50%;
+  height: 100px;
+  padding: 4rem;
+  border: 1px solid black;
+  margin: 2rem auto;
+}
+.quote-container h3::first-letter{
+  font-size: 2rem;
+  color: rgb(175, 0, 0);
+}
+.quote-container p{
+  margin-top: 2rem;
+}
+.quote-container p::before{
+  content: "- ";
+}
+
+.container button{
+  border: 2px solid black;
+  padding: 0.2rem 0.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: transparent;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.container button:hover{
+  background: black;
+  color: white;
+}
+
+@media screen and (max-width: 800px){
+
+  .quote-container{
+    height: 150px;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+
+  .quote-container{
+    height: 180px;
+  }
+
+}
