@@ -1,5 +1,5 @@
 # small-projects
-I'm going to build small projects everyday for 30 days using HTML, CSS, Bootstrap &amp; Javascript.
+I challenge mysef to build 30 small projects with HTML, CSS & Javascript.
 
 day 1 - book info popup <br />
 day 2 - digital clock with a simple text to speech <br />
