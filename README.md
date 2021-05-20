@@ -12,5 +12,5 @@ I challenge mysef to build 30 small projects with HTML, CSS & Javascript.
 9 - grocery cart <br />
 10 - weather app <br />
 11 - music player <br/>
-12 - analog clock
-13 - kanji quiz app
+12 - analog clock <br/>
+13 - kanji quiz app <br/>
