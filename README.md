@@ -14,3 +14,8 @@ I challenge mysef to build 30 small projects with HTML, CSS & Javascript.
 11 - music player <br/>
 12 - analog clock <br/>
 13 - kanji quiz app <br/>
+14 - tango quiz app <br/>
+15 - react to do list <br/>
+16 - react recipe app <br/>
+17 - budget tracker
+
